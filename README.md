@@ -17,6 +17,17 @@ Make sure to use the last database dump(13062022) when testing to help identify 
 2. Run `gunzip < your_backup_file.sql.gz | psql lions_rails_dev`
 3. Run `bundle exec rails db:migrate`
 
+## Rails Testing Procedure (Full Scale Test [But not limited to])
+- Read Only Check
+- CUD Check
+- Check Related Pages
+### Notes:
+- All Buttons Work Correctly
+- All Pages load Correctly
+- Check for errors/deprecation warnings in the console
+- Check data consistency with staging
+- etc.
+
 ## Issue Submission Guidelines
 - When submitting issues please follow the following guidelines:
 ```
