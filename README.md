@@ -11,6 +11,12 @@ This repository is used as an issue ticketing system to track and organise possi
 5. Run `rbenv exec bundle install --path .bundle`
 6. Run `rbenv exec bundle exec rails s` to start the server
 
+## Setting up the database
+Make sure to use the last database dump(13062022) when testing to help identify data discrepancies
+1. Download the latest database dump from the Google Drive
+2. Run `gunzip < your_backup_file.sql.gz | psql lions_rails_dev`
+3. Run `bundle exec rails db:migrate`
+
 ## Issue Submission Guidelines
 - When submitting issues please follow the following guidelines:
 ```
