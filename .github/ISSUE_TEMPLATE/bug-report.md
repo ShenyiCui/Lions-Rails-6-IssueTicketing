@@ -8,6 +8,7 @@ assignees: ''
 ---
 
 ## Issue Description (Unexpected Behaviour)
+- Does this error appear in staging? (If it does ignore the issue for now)
 - What kind of error occurred? Please provide a short succinct description.
 - Can you isolate the error to a specific commit (`git bisect`)? 
 - Is it caused by rails upgrade or is it an existing error?
