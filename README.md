@@ -6,7 +6,7 @@ This repository is used as an issue ticketing system to track and organise possi
 ## Rails 6.1.6 Setup Instructions 
 1. Run `git switch master`
 2. Run `git pull`
-3. Run `git switch rails-upgrade/rails-6.1.6`
+3. Run `git switch rails-upgrade/rails-6-testing`
 4. Run `rbenv install 2.7.6`
 5. Run `rbenv exec bundle install --path .bundle`
 6. Run `rbenv exec bundle exec rails s` to start the server
